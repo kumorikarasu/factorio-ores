@@ -1,0 +1,10 @@
+{
+  "name": "kumori-ores",
+  "version": "0.1.0",
+  "title": "Kumori's Ore Module",
+  "author": "kumori",
+  "contact": "kumori@ryougi.com",
+  "homepage": "N/A",
+  "description": "Contains ores used by other mods",
+  "dependencies": []
+}
