@@ -3,12 +3,15 @@
     require("prototypes.chalcopyrite") -- Copper
 --    require("prototypes.bauxite") -- Aluminum Ore
     require("prototypes.gold") -- gold doesn't really have an ore
-    require("prototypes.sandstone") -- 
 --    require("prototypes.casseterite") -- Lead Ore
 --    require("prototypes.garnierite") -- Nickel Ore
 --    require("prototypes.rutile") -- Titanium Dioxide
 --    require("prototypes.argentite") -- Silver
 --    require("prototypes.sphalerite") -- Zinc
+
+-- None Ore Type Resources
+    require("prototypes.sandstone") -- 
+    require("prototypes.clay") -- 
 
 
 -- Allow mining equipment to mine up to 4 items at once
