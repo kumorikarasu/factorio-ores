@@ -12,6 +12,8 @@
 -- None Ore Type Resources
     require("prototypes.sandstone") -- 
     require("prototypes.clay") -- 
+    
+    require("prototypes.limestone") -- New Raw Resources
 
 
 -- Allow mining equipment to mine up to 4 items at once
