@@ -2,7 +2,7 @@
 data:extend({
   {
     type = "item",
-    name = "copper-dust",
+    name = "ku-copper-dust",
     icon = "__kumori-ores__/graphics/dust/copper-dust.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "raw-material",
@@ -16,6 +16,5 @@ data:extend({
 data.raw["resource"]["copper-ore"].minable.result = nil
 data.raw["resource"]["copper-ore"].minable.results = {
     {type="item", name="copper-ore", amount_min=1, amount_max=1, probability=1},
-    {type="item", name="copper-dust", amount_min=1, amount_max=1, probability=0.05},
-    {type="item", name="gravel", amount_min=1, amount_max=1, probability=0.2}
+    {type="item", name="ku-copper-dust", amount_min=1, amount_max=1, probability=0.05},
 }

@@ -3,17 +3,17 @@ data:extend(
 {
   {
     type = "noise-layer",
-    name = "clay"
+    name = "ku-clay"
   },
   {
     type = "autoplace-control",
-    name = "clay",
+    name = "ku-clay",
     richness = true,
     order = "b-c"
   },
   {
     type = "resource",
-    name = "clay",
+    name = "ku-clay",
     icon = "__kumori-ores__/graphics/icons/clay.png",
     flags = {"placeable-neutral"},
     order="a-b-a",
@@ -27,7 +27,7 @@ data:extend(
       results =
       {
         {
-          name = "clay",
+          name = "ku-clay",
           amount_min = 1,
           amount_max = 1,
           probability = 1
@@ -38,7 +38,7 @@ data:extend(
     selection_box = {{ -0.5, -0.5}, {0.5, 0.5}},
     autoplace =
     {
-      control = "clay",
+      control = "ku-clay",
       sharpness = 1,
       max_probability = 0.04,
       richness_multiplier = 150000,
@@ -57,7 +57,7 @@ data:extend(
         },
         {
           influence = 0.67,
-          noise_layer = "clay",
+          noise_layer = "ku-clay",
           noise_octaves_difference = -2.7,
           noise_persistence = 0.3
         }

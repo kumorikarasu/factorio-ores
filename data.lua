@@ -1,6 +1,6 @@
 
     require("prototypes.hematite") -- Iron Ore
-    require("prototypes.chalcopyrite") -- Copper
+    require("prototypes.chalcocite") -- Copper
 --    require("prototypes.bauxite") -- Aluminum Ore
     require("prototypes.gold") -- gold doesn't really have an ore
 --    require("prototypes.casseterite") -- Lead Ore

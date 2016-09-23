@@ -3,7 +3,7 @@ data:extend(
 {
   {
     type = "item",
-    name = "gold-dust",
+    name = "ku-gold-dust",
     icon = "__kumori-ores__/graphics/dust/gold-dust.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "raw-material",
@@ -12,7 +12,7 @@ data:extend(
   },
   {
     type = "item",
-    name = "gold-ore",
+    name = "ku-gold-ore",
     icon = "__kumori-ores__/graphics/gold/ore.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "raw-resource",
@@ -21,17 +21,17 @@ data:extend(
   },
   {
     type = "noise-layer",
-    name = "gold"
+    name = "ku-gold"
   },
   {
     type = "autoplace-control",
-    name = "gold",
+    name = "ku-gold",
     richness = true,
     order = "b-c"
   },
   {
     type = "resource",
-    name = "gold",
+    name = "ku-gold",
     icon = "__kumori-ores__/graphics/gold/ore.png",
     flags = {"placeable-neutral"},
     order="a-b-d",
@@ -41,15 +41,15 @@ data:extend(
       mining_particle = "stone-particle",
       mining_time = 2,
       results = {
-          {type="item", name="gold-ore", amount_min=1, amount_max=1, probability=0.4},
-          {type="item", name="gravel", amount_min=1, amount_max=1, probability=0.6}
+          {type="item", name="ku-gold-ore", amount_min=1, amount_max=1, probability=0.4},
+          {type="item", name="ku-gravel", amount_min=1, amount_max=1, probability=0.6}
       }
     },
     collision_box = {{ -0.1, -0.1}, {0.1, 0.1}},
     selection_box = {{ -0.5, -0.5}, {0.5, 0.5}},
     autoplace =
     {
-      control = "gold",
+      control = "ku-gold",
       sharpness = 1,
       richness_multiplier = 11000,
       richness_base = 150,
@@ -63,7 +63,7 @@ data:extend(
         },
         {
           influence = 0.6,
-          noise_layer = "gold",
+          noise_layer = "ku-gold",
           noise_octaves_difference = -3,
           noise_persistence = 0.45,
           starting_area_weight_optimal = 0,
@@ -78,7 +78,7 @@ data:extend(
         },
         {
           influence = 0.45,
-          noise_layer = "gold",
+          noise_layer = "ku-gold",
           noise_octaves_difference = -4,
           noise_persistence = 0.45,
           starting_area_weight_optimal = 1,
@@ -109,7 +109,7 @@ data:extend(
         {
           influence = -0.2,
           max_influence = 0,
-          noise_layer = "sandstone",
+          noise_layer = "ku-sandstone",
           noise_octaves_difference = -2.3,
           noise_persistence = 0.45,
         }

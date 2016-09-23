@@ -3,7 +3,7 @@ data:extend(
 {
   {
     type = "item",
-    name = "sandstone",
+    name = "ku-sandstone",
     icon = "__kumori-ores__/graphics/sandstone/icon.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "raw-resource",
@@ -12,17 +12,17 @@ data:extend(
   },
   {
     type = "noise-layer",
-    name = "sandstone"
+    name = "ku-sandstone"
   },
   {
     type = "autoplace-control",
-    name = "sandstone",
+    name = "ku-sandstone",
     richness = true,
     order = "b-c"
   },
   {
     type = "resource",
-    name = "sandstone",
+    name = "ku-sandstone",
     icon = "__kumori-ores__/graphics/sandstone/sandstone.png",
     flags = {"placeable-neutral"},
     order="a-b-d",
@@ -33,14 +33,14 @@ data:extend(
       mining_time = 2,
       results = {
           {type="item", name="stone", amount_min=1, amount_max=1, probability=0.5},
-          {type="item", name="sand", amount_min=1, amount_max=1, probability=0.5}
+          {type="item", name="ku-sand", amount_min=1, amount_max=1, probability=0.5}
       }
     },
     collision_box = {{ -0.1, -0.1}, {0.1, 0.1}},
     selection_box = {{ -0.5, -0.5}, {0.5, 0.5}},
     autoplace =
     {
-      control = "sandstone",
+      control = "ku-sandstone",
       sharpness = 1,
       richness_multiplier = 11000,
       richness_base = 250,
@@ -54,7 +54,7 @@ data:extend(
         },
         {
           influence = 0.6,
-          noise_layer = "sandstone",
+          noise_layer = "ku-sandstone",
           noise_octaves_difference = -3,
           noise_persistence = 0.45,
           starting_area_weight_optimal = 0,
@@ -69,7 +69,7 @@ data:extend(
         },
         {
           influence = 0.6,
-          noise_layer = "sandstone",
+          noise_layer = "ku-sandstone",
           noise_octaves_difference = -4,
           noise_persistence = 0.45,
           starting_area_weight_optimal = 1,
