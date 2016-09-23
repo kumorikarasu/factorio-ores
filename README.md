@@ -1,3 +1,12 @@
+# RSO is required for this mod, place the kumori.lua file in RSO -> resourceconfigs and edit mainconfig.lua adding
+
+  if game.active_mods["kumori-ores"] then
+    fillKumoriConfig()
+  end
+
+
+
+
 # factorio-ores
 
 Creation of new ores, hopefully we will have some form of standard ore libraries so we don't have a ton of indivual ones.
